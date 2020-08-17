@@ -1,10 +1,16 @@
 {
-  "name": "chats",
+  "name": "@amitkumarnagar/chats",
   "version": "1.0.0",
   "description": "A fully functional chat package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/amitkumarnagar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitkumarnagar/chats"
+  },
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
