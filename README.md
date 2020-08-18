@@ -113,7 +113,7 @@ message = { ..., receiptType: 'received' | 'sent'}
 | sender/receiver | `object` | A user object for chat rooms
 | senderId/receiverId | `string` | A unique id for a user
 | roomId | `string` | chat room's unique Id
-| attachment | `string | base64` | attachment to be sent
+| attachment | `string or base64` | attachment to be sent
 
 ---
 
