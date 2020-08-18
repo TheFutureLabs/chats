@@ -14,15 +14,11 @@ Currently we only support realtime chat using [firebase][https://console.firebas
 
 ---
 
-<br />
-
 ### Installation
 
 `npm install @amitkumarnagar/chats`
 
 ---
-
-## <br />
 
 ## Usage
 
@@ -47,7 +43,7 @@ var firebaseConfig = {
 import Chats from '@amitkumarnagar/chats';
 
 // initialize chatService
-const chatService = Chats(config);
+const chatService = Chats(firebaseConfig);
 
 // get all chat rooms
 const chatRooms = await chatService.getAllRooms();
