@@ -26,6 +26,7 @@ class Chats {
         return generateRoomId(user1, user2);
     }
 
+    // TODO: Change the user array
     public async createRoom(users: IUser[]) {
         const userIds = users.map(u => u._id);
         const roomId = await this.createRoomId(userIds);
