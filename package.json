@@ -4,9 +4,6 @@
     "description": "A fully functional chat package",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/amitkumarnagar"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/amitkumarnagar/chats"
@@ -29,7 +26,14 @@
         "lib/**/*"
     ],
     "author": "Amit Kumar",
-    "license": "ISC",
+    "keywords": [
+        "chat",
+        "chat-sdk",
+        "firebase",
+        "firebase-chats",
+        "firebase-chat-sdk"
+    ],
+    "license": "MIT",
     "dependencies": {
         "firebase": "^7.14.6"
     },
